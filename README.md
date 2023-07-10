@@ -9,7 +9,19 @@
 
 You will be using the GitHub API for this project. You can view documentation
 for this API [here](https://developer.github.com/v3/). This is an open API: no
-API key or authentication is required for the endpoints we will be using.
+API key or aut#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#github-container {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}hentication is required for the endpoints we will be using.
 
 Notice the GitHub API documentation includes the following excerpt:
 

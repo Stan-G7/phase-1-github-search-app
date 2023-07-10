@@ -1,13 +1,100 @@
-#main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/* index.css */
 
-#github-container {
-  display: flex;
-}
-
-ul {
-  list-style: none;
-}
+body {
+    font-family: Arial, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  #github-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #search {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  #search:focus {
+    outline: none;
+    border-color: #555;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    color: goldenrod;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: green;
+  }
+  
+  #github-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #user-list,
+  #repos-list {
+    flex: 1;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .user,
+  .repository {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #6e865e70;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user a,
+  .repository a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .user a:hover,
+  .repository a:hover {
+    text-decoration: underline;
+  }
+  
+  p {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+  }
+  
